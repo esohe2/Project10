@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: calc(1440px/4);
+    height: calc(1440px/6);
+    margin: 150px 500px;
+    padding: 50px 130px ;
+    background-color: #bed9d9;
+    display: none;
+    text-wrap: nowrap;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.img{
+    background-image: linear-gradient(to right,teal 40%,  deepskyblue );
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.myUser{
+    margin: 10px 0;
+}

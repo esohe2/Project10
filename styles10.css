@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+.loginpage{
+    border-radius: 20px;
+    position: absolute;
+    width: calc(1440px/4);
+    height: calc(1440px/6);
+    margin: 150px 500px;
+    padding: 50px 30px ;
+    background-color: white;
+    display: flex;
+}
+
+input[type="text"]{
+    border-color: hsl(231, 7%, 60%);
+    border-style: solid;
+    width: 300px;
+    height: 36px;
+    border-radius: 6px;
+    color: #000F37;
+    padding: 14px;
+}
+input[type="email"]{
+    border-color: hsl(231, 7%, 60%);
+    border-style: solid;
+    width: 300px;
+    height: 36px;
+    border-radius: 6px;
+    color: #000F37;
+    padding: 14px;
+    margin-top: 8px;
+}
+input[type="submit"]{
+    background-color: hsl(235, 100%, 14%);
+    border: none;
+    width: 300px;
+    height: 36px;
+    margin-top: 8px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+}
+input[type="submit"]:hover{
+    background-image: linear-gradient(to right, teal 40%,  #00BFFF);
+    /* box-shadow: 2px 8px 16px 7px #477c88; */
+}
+
+.error{
+    color: rgb(255, 123, 147);
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 205px;
+    text-wrap: nowrap;
+}
+.name{
+    color: rgb(255, 123, 147);
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 210px;
+    text-wrap: nowrap;
+}
